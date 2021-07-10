@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestSingleton1(t *testing.T)  {
+func TestSingleton1(t *testing.T) {
 	s1 := getInstance()
 	s2 := getInstance()
 	if s1 != s2 {
