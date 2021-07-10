@@ -22,6 +22,7 @@ func (c *Circle) Draw() string {
 	return "circle"
 }
 
+// NewShapeFactory 用于生成Shape接口实例
 func NewShapeFactory(t string) Shape {
 	if t == "" {
 		return nil
