@@ -11,3 +11,8 @@
 具体原型（ConcretePrototype）：从抽象原型派生而来，是客户程序使用的对象，即被复制的对象，需要实现抽象原型角色所要求的接口。
 
 客户（Client）角色：使用原型对象的客户程序
+
+## 参考
+
+* https://github.com/senghoo/golang-design-pattern/blob/master/07_prototype/prototype.go
+* https://www.runoob.com/design-pattern/prototype-pattern.html
