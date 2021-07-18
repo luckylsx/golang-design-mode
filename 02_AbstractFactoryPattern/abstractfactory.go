@@ -22,7 +22,6 @@ func (c *Circle) Draw() string {
 	return "circle"
 }
 
-
 type Color interface {
 	fill() string
 }
